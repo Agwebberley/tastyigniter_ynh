@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="pdo_mysql curl openssl dom gd mbstring json pdo_mysql tokenizer zip"
+pkg_dependencies="curl openssl dom gd mbstring json pdo_mysql tokenizer zip"
 
 #=================================================
 # PERSONAL HELPERS
