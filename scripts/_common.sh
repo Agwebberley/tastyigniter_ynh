@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="curl openssl dom gd mbstring json tokenizer zip"
+pkg_dependencies=""
 
 #=================================================
 # PERSONAL HELPERS
