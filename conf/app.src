@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
+SOURCE_URL=https://codeload.github.com/tastyigniter/setup/zip/master
 SOURCE_SUM=sha256 checksum
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_FILENAME=setup_master
 SOURCE_EXTRACT=true
