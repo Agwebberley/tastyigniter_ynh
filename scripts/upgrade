@@ -154,6 +154,18 @@ ynh_add_fpm_config
 # ...
 #=================================================
 
+#=================================================
+# UPDATE A CONFIG FILE
+#=================================================
+ynh_script_progression --message="Updating a configuration file..." --time --weight=1
+
+### Same as during install
+###
+### The file will automatically be backed-up if it's found to be manually modified (because
+### ynh_add_config keeps track of the file's checksum)
+
+ynh_add_config --template="some_config_file" --destination="$final_path/some_config_file"
+
 # FIXME: this should be handled by the core in the future
 # You may need to use chmod 600 instead of 400,
 # for example if the app is expected to be able to modify its own config
