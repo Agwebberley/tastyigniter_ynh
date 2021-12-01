@@ -1,7 +1,7 @@
 SOURCE_URL=https://codeload.github.com/tastyigniter/setup/zip/master
 SOURCE_FORMAT=zip
-SOURCE_SUM=
-SOURCE_SUM_PRG=
+SOURCE_SUM=9bbf0f569a1db4721d079b98a8434f9086be1ec7da384f02a7c63c6b15797c1a
+SOURCE_SUM_PRG=sha256sum
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=setup_master
 SOURCE_EXTRACT=true
