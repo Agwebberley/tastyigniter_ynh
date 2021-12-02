@@ -27,7 +27,6 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.4-fpm",
         "mysql"
     ],
     "arguments": {
@@ -51,7 +50,6 @@
                 "type": "boolean",
                 "default": true
             }
-            
         ]
     }
 }

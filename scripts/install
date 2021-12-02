@@ -71,10 +71,8 @@ ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
 ynh_app_setting_set --app=$app --key=admin --value=$admin
 
-
 #=================================================
 # STANDARD MODIFICATIONS
-
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
@@ -140,7 +138,6 @@ chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
-
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
@@ -168,7 +165,7 @@ ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
 ###		- And the section "PHP-FPM CONFIGURATION" in the upgrade script
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_add_fpm_config --phpversion=$phpversion
 
 #=================================================
 # SPECIFIC SETUP
@@ -203,9 +200,6 @@ mkdir -p $datadir
 chmod 750 "$datadir"
 chmod -R o-rwx "$datadir"
 chown -R $app:www-data "$datadir"
-
-#=================================================
-
 
 #=================================================
 # GENERIC FINALIZATION
