@@ -4,11 +4,10 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.4"
-phpversion=$YNH_PHP_VERSION
+phpversion=7.4
 
 # dependencies used by the app
-pkg_dependencies="php${YNH_PHP_VERSION}-fpm php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-curl php${YNH_PHP_VERSION}-dom php${YNH_PHP_VERSION}-gd php${YNH_PHP_VERSION}-mbstring php${YNH_PHP_VERSION}-json php${YNH_PHP_VERSION}-tokenizer php${YNH_PHP_VERSION}-zip"
+pkg_dependencies="php${phpversion}-fpm php${phpversion}-mysql php${phpversion}-curl php${phpversion}-dom php${phpversion}-gd php${phpversion}-mbstring php${phpversion}-json php${phpversion}-tokenizer php${phpversion}-zip"
 
 
 #=================================================
