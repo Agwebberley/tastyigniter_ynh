@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="pdo curl connection mbstring gd zip"
+pkg_dependencies="php7.4-pdo php7.4-curl php7.4-connection php7.4-mbstring php7.4-gd php7.4-zip"
 
 YNH_PHP_VERSION="7.4"
 
