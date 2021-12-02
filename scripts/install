@@ -165,7 +165,7 @@ ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
 ###		- And the section "PHP-FPM CONFIGURATION" in the upgrade script
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --phpversion=$phpversion
+ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION
 
 #=================================================
 # SPECIFIC SETUP
